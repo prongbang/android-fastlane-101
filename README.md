@@ -44,4 +44,5 @@ androoid-fastlane-101
 └── ...
 ```
 
-## 
+- `Gemfile` - Define your dependency on fastlane
+- 
