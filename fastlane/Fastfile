@@ -21,6 +21,26 @@ platform :android do
     gradle(task: "test")
   end
 
+  desc "Runs build by mode and phase"
+  lane :build do |options|
+    phase = options[:phase]
+    mode = options[:mode]
+
+    puts "phase: #{phase}"
+    puts "mode: #{mode}"
+  end
+
+  desc "Distribute your app"
+  lane :distribute do
+      build_android_app(...) # build_android_app is a built-in fastlane action.
+
+      firebase_app_distribution(
+          app: "1:123456789:android:abcd1234",
+          testers: "tester1@company.com, tester2@company.com",
+          release_notes: "Lots of amazing new features to test out!"
+      )
+  end
+
   desc "Submit a new Beta Build to Crashlytics Beta"
   lane :beta do
     gradle(task: "clean assembleRelease")
