@@ -28,5 +28,10 @@ fastlane init
 [00:07:33]: Package Name (com.krausefx.app): com.prongbang.fastlane101
 ```
 
+### Output
 
+```
+androoid-fastlane-101
+
+```
 
