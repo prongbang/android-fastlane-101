@@ -31,7 +31,7 @@ fastlane init
 ### Output
 
 ```
-androoid-fastlane-101
+android-fastlane-101
 ├── Gemfile
 ├── Gemfile.lock
 ├── app
@@ -45,7 +45,7 @@ androoid-fastlane-101
 ```
 
 - `Gemfile`             - Define your dependency on fastlane
-- `Gemfile.lock`        - Version Control
+- `Gemfile.lock`        - Define Version Control
 - `fastlane/Appfile`    - Defines configuration information that is global to your app
 - `fastlane/Fastfile`   - Defines the "lanes" that drive the behavior of fastlane
 - `fastlane/Pluginfile` - Define your plugin on fastlane
