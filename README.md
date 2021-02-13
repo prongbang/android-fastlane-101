@@ -32,6 +32,16 @@ fastlane init
 
 ```
 androoid-fastlane-101
-
+├── Gemfile
+├── Gemfile.lock
+├── app
+|   ├── ...
+│   └── build.gradle
+├── build.gradle
+├── fastlane
+│   ├── Appfile
+│   └── Fastfile
+└── ...
 ```
 
+## 
