@@ -45,4 +45,5 @@ androoid-fastlane-101
 ```
 
 - `Gemfile` - Define your dependency on fastlane
+- `Gemfile.lock` - Version Control
 - 
